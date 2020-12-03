@@ -21,7 +21,11 @@ class Core
     encrypted_answers(locales, current_question)
   end
 
-  def encrypted_answers(locales, question)
+  def locales_loaded?
+    !@all_locales.empty?
+  end
+
+  private def encrypted_answers(locales, question)
     md5_answers = [] of String | Int32
 
     locales[question].as_a.each do |answer|
@@ -29,10 +33,6 @@ class Core
     end
 
     {"q" => question.to_s, "a" => md5_answers}
-  end
-
-  def locales_loaded?
-    !@all_locales.empty?
   end
 
   private def is_valid_locale(str : String)
