@@ -31,3 +31,11 @@ login:
 
 make test:
 	curl localhost:$(PORT)
+
+lint:
+	@echo "Linting files..."
+	crystal tool format
+
+spec:
+	@echo "Running tests..."
+	cd src/ && crystal spec
