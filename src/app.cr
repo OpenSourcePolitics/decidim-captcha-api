@@ -3,8 +3,8 @@ require "json"
 require "./core"
 
 DEFAULT_LOCALE = "en"
-DEFAULT_HOST   = "0.0.0.0"
-DEFAULT_PORT   = 8080
+HOST = ENV.has_key?("HOST") ? ENV["HOST"] : "0.0.0.0"
+PORT = ENV.has_key?("PORT") ? ENV["PORT"].to_i : 8080
 
 core = Core.new("**/locales", DEFAULT_LOCALE)
 abort("No locales found in path !", 1) unless core.locales_loaded?
@@ -17,9 +17,7 @@ server = HTTP::Server.new do |context|
   context.response.print core.question_and_answers(locale).to_json
 end
 
-host = ENV.has_key?("HOST") ? ENV["HOST"] : DEFAULT_HOST
-port = ENV.has_key?("PORT") ? ENV["PORT"].to_i : DEFAULT_PORT
-address = server.bind_tcp(host, port)
+address = server.bind_tcp(HOST, PORT)
 
 puts "Listening on http://#{address}"
 server.listen
