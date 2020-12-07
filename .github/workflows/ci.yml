@@ -16,5 +16,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: oprypin/install-crystal@v1
-      - run: crystal run src/app.cr > /dev/null 2>&1 &
+      - run: LOCALES_DIR="**/spec/src/locales" crystal run src/app.cr > /dev/null 2>&1 &
       - run: crystal spec
