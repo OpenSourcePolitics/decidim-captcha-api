@@ -36,6 +36,9 @@ lint:
 	@echo "Linting files..."
 	crystal tool format
 
+test-server:
+	crystal run src/app.cr > /dev/null 2>&1 &
+
 spec:
 	@echo "Running tests..."
 	cd src/ && crystal spec
