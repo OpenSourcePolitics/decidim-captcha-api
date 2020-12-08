@@ -26,7 +26,7 @@ describe Core do
       it "returns the question with wanted locale" do
         subject.locales_loaded?.should be_true
         actual = subject.question_and_answers("en")
-        actual.should be_a Hash(String, Array(Int32 | String) | String)
+        actual.should be_a Hash(String, Array(String) | String)
         actual.keys.should eq(["q", "a"])
 
         actual["q"].should eq("Are you a robot ?")
@@ -38,7 +38,7 @@ describe Core do
         it "returns the french question" do
           subject.locales_loaded?.should be_true
           actual = subject.question_and_answers("fr")
-          actual.should be_a Hash(String, Array(Int32 | String) | String)
+          actual.should be_a Hash(String, Array(String) | String)
           actual.keys.should eq(["q", "a"])
 
           actual["q"].should eq("Êtes-vous une machine ?")
@@ -53,7 +53,7 @@ describe Core do
 
           actual = subject.question_and_answers(locale)
 
-          actual.should be_a Hash(String, Array(Int32 | String) | String)
+          actual.should be_a Hash(String, Array(String) | String)
           actual["q"].should eq("Are you a robot ?")
           actual["a"].should_not eq(["no", "yes"])
           actual["a"].should eq(["7fa3b767c460b54a2be4d49030b349c7", "a6105c0a611b41b08f1209506350279e"])
@@ -66,7 +66,7 @@ describe Core do
 
           actual = subject.question_and_answers(locale)
 
-          actual.should be_a Hash(String, Array(Int32 | String) | String)
+          actual.should be_a Hash(String, Array(String) | String)
           actual["q"].should eq("Are you a robot ?")
           actual["a"].should_not eq(["no", "yes"])
           actual["a"].should eq(["7fa3b767c460b54a2be4d49030b349c7", "a6105c0a611b41b08f1209506350279e"])
@@ -79,7 +79,7 @@ describe Core do
 
           actual = subject.question_and_answers(locale)
 
-          actual.should be_a Hash(String, Array(Int32 | String) | String)
+          actual.should be_a Hash(String, Array(String) | String)
           actual["q"].should eq("Are you a robot ?")
           actual["a"].should_not eq(["no", "yes"])
           actual["a"].should eq(["7fa3b767c460b54a2be4d49030b349c7", "a6105c0a611b41b08f1209506350279e"])
