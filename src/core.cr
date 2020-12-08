@@ -26,7 +26,7 @@ class Core
   end
 
   private def encrypted_answers(locales, question)
-    md5_answers = [] of String | Int32
+    md5_answers = [] of String
 
     locales[question].as_a.each do |answer|
       md5_answers << Digest::MD5.hexdigest(answer.to_s.downcase)
