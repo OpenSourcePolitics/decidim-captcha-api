@@ -3,9 +3,9 @@ require "json"
 require "./core"
 
 DEFAULT_LOCALE = "en"
-HOST = ENV.has_key?("HOST") ? ENV["HOST"] : "0.0.0.0"
-PORT = ENV.has_key?("PORT") ? ENV["PORT"].to_i : 8080
-LOCALES_DIR = ENV.has_key?("LOCALES_DIR") ? ENV["LOCALES_DIR"] : "**/locales"
+HOST           = ENV.has_key?("HOST") ? ENV["HOST"] : "0.0.0.0"
+PORT           = ENV.has_key?("PORT") ? ENV["PORT"].to_i : 8080
+LOCALES_DIR    = ENV.has_key?("LOCALES_DIR") ? ENV["LOCALES_DIR"] : "**/locales"
 
 core = Core.new(LOCALES_DIR, DEFAULT_LOCALE)
 abort("No locales found in path !", 1) unless core.locales_loaded?

@@ -38,7 +38,7 @@ lint:
 	crystal tool format
 
 test-server:
-	LOCALES_DIR="**/spec/src/locales" crystal run src/app.cr > /dev/null 2>&1 &
+	LOCALES_DIR="**/spec/src/locales" crystal run src/app.cr
 
 spec:
 	@echo "Running tests..."
