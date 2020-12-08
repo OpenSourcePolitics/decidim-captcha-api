@@ -6,11 +6,16 @@ describe Core do
 
   describe "#initialize" do
     it "creates the default value" do
-      actual = subject
+      subject.should_not be_nil
+      subject.locales_path.should eq("./spec/src/locales")
+      subject.locales_loaded?.should be_true
+    end
+  end
 
-      actual.should_not be_nil
-      actual.locales_path.should eq("./spec/src/locales")
-      actual.locales_loaded?.should be_true
+  describe "#load_locales" do
+    it "returns proper parsed values" do
+      actual = subject.question_and_answers("en")
+      actual["a"].should eq([Digest::MD5.hexdigest("no"), Digest::MD5.hexdigest("yes")])
     end
   end
 
@@ -19,24 +24,20 @@ describe Core do
 
     context "when fetching a question" do
       it "returns the question with wanted locale" do
-        core = subject
-
-        core.locales_loaded?.should be_true
-        actual = core.question_and_answers("en")
+        subject.locales_loaded?.should be_true
+        actual = subject.question_and_answers("en")
         actual.should be_a Hash(String, Array(Int32 | String) | String)
         actual.keys.should eq(["q", "a"])
 
         actual["q"].should eq("Are you a robot ?")
         actual["a"].should_not eq(["no", "yes"])
-        actual["a"].should eq(["68934a3e9455fa72420237eb05902327", "b326b5062b2f0e69046810717534cb09"])
+        actual["a"].should eq(["7fa3b767c460b54a2be4d49030b349c7", "a6105c0a611b41b08f1209506350279e"])
       end
 
       context "when fetching with 'fr' locale" do
         it "returns the french question" do
-          core = subject
-
-          core.locales_loaded?.should be_true
-          actual = core.question_and_answers("fr")
+          subject.locales_loaded?.should be_true
+          actual = subject.question_and_answers("fr")
           actual.should be_a Hash(String, Array(Int32 | String) | String)
           actual.keys.should eq(["q", "a"])
 
@@ -48,43 +49,40 @@ describe Core do
 
       context "when fetching with unknown locale" do
         it "returns the english question" do
-          core = subject
           locale = "it"
 
-          actual = core.question_and_answers(locale)
+          actual = subject.question_and_answers(locale)
 
           actual.should be_a Hash(String, Array(Int32 | String) | String)
           actual["q"].should eq("Are you a robot ?")
           actual["a"].should_not eq(["no", "yes"])
-          actual["a"].should eq(["68934a3e9455fa72420237eb05902327", "b326b5062b2f0e69046810717534cb09"])
+          actual["a"].should eq(["7fa3b767c460b54a2be4d49030b349c7", "a6105c0a611b41b08f1209506350279e"])
         end
       end
 
       context "when locale is empty" do
         it "returns the english question" do
-          core = subject
           locale = ""
 
-          actual = core.question_and_answers(locale)
+          actual = subject.question_and_answers(locale)
 
           actual.should be_a Hash(String, Array(Int32 | String) | String)
           actual["q"].should eq("Are you a robot ?")
           actual["a"].should_not eq(["no", "yes"])
-          actual["a"].should eq(["68934a3e9455fa72420237eb05902327", "b326b5062b2f0e69046810717534cb09"])
+          actual["a"].should eq(["7fa3b767c460b54a2be4d49030b349c7", "a6105c0a611b41b08f1209506350279e"])
         end
       end
 
       context "when locale is not an existing locale" do
         it "returns the english question" do
-          core = subject
           locale = "this is a fake locale"
 
-          actual = core.question_and_answers(locale)
+          actual = subject.question_and_answers(locale)
 
           actual.should be_a Hash(String, Array(Int32 | String) | String)
           actual["q"].should eq("Are you a robot ?")
           actual["a"].should_not eq(["no", "yes"])
-          actual["a"].should eq(["68934a3e9455fa72420237eb05902327", "b326b5062b2f0e69046810717534cb09"])
+          actual["a"].should eq(["7fa3b767c460b54a2be4d49030b349c7", "a6105c0a611b41b08f1209506350279e"])
         end
       end
     end

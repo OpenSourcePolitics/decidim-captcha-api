@@ -36,6 +36,7 @@ make test:
 lint:
 	@echo "Linting files..."
 	crystal tool format
+	yamllint .
 
 test-server:
 	LOCALES_DIR="**/spec/src/locales" crystal run src/app.cr

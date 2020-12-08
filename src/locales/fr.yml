@@ -1,3 +1,4 @@
+---
 "De quelle couleur est le cheval gris?":
   - gris
 "êtes vous une machine":
@@ -19,7 +20,7 @@
   - cent
 "Combien font 15 moins un ?":
   - 14
-  - quatorze 
+  - quatorze
 "Quelle la couleur du cheval blanc d'Henri IV ?":
   - blanc
 "Parmi cinquante, soixante-seize, vingt-trois, un, 28 ou 77, lequel est le plus grand ?":
@@ -27,10 +28,10 @@
   - soixante-dix-sept
 "55+1":
   - 56
-  - cinquante-six 
+  - cinquante-six
 "14, trente-cinq ou quarante-cinq : le plus petit est ?":
   - 45
-  - quarante-cinq 
+  - quarante-cinq
 "Si les cheveux sont noirs, de quelle couleur sont les cheveux ?":
   - noirs
   - noir
