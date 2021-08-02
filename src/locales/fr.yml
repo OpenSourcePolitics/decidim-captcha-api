@@ -41,3 +41,37 @@
 "La liste bleu, doigt, rose, fromage, œil et pain contient combien de couleurs ?":
   - 2
   - deux
+"Quelle est la troisième lettre du mot lait ?":
+  - i
+"Combien font trois plus un ?":
+  - 4
+  - quatre
+"Quel est le deuxième nombre de la liste : 24, 38, 23, 6, 37 ?":
+  - 38
+  - trente-huit
+"Quel est le plus grand nombre de la liste : 81, soixante-trois, 44 ?":
+  - 81
+  - quatre-vingt-un
+"Quel est le prénom de Jennifer ?":
+  - Jennifer
+"Quel est le troisième chiffre du nombre 9354816 ?":
+  - 5
+  - cinq
+"Quelle est la couleur du pantalon bleu ?":
+  - bleu
+"Combien y a-t-il de couleurs dans la liste : dent, pain, blanc, pain, hotel ?":
+  - 1
+  - un
+  - une
+"62, vingt-deux, 32 et 34 : quel est le premier nombre de la liste ?":
+  - 62
+  - soixante-deux
+"Parmi les nombres 24, quatorze et 17 quel est le plus grand ?":
+  - 24
+  - vingt-quatre
+"Combien de couleurs contient la liste : noir, cheval, chaussure, rouge, violet ?":
+  - 3
+  - trois
+"Confiture, bras, doigt, éléphant : combien y a-t-il de parties du corps ?":
+  - 2
+  - deux
