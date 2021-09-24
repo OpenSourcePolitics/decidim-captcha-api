@@ -1,34 +1,17 @@
 ---
 "What is the color of the gray horse?":
   - gray
-"are you a machine ?":
+"are you a machine?":
   - "no"
 "What is the capital of France?":
   - paris
-"1+1":
-  - 2
-  - two
-  - 02
-"What is the color of the black cat?":
+"What color is the black cat?":
   - black
-"What is the first color in this list: language, gray, orange?":
+"What is the department number of Loire-Atlantique?":
+  - 44
+  - forty-four
+"What is the first color in the list: language, gray, orange?":
   - gray
-"What is the greatest number between the following numbers: eighteen, five, forty, one hundred?":
-  - 100
-  - hundred
-  - one hundred
-"What is 15 minus one?":
-  - 14
-  - fourteen
-"Which of: fifty, seventy-six, twenty-three, one, 28 or 77 is the largest?":
-  - 77
-  - seventy-seven
-"55+1":
-  - 56
-  - fifty-six
-"14, thirty-five or forty-five: the smaller is?":
-  - 45
-  - forty-five
 "If the hair is black, what color is the hair?":
   - black
 "Pink, green and elbow: how many colors in the list?":
@@ -39,47 +22,30 @@
   - two
 "What is the third letter in the word milk?":
   - l
-"How much is three plus one?":
-  - 4
-  - four
 "What is the second number in the list: 24, 38, 23, 6, 37?":
   - 38
   - thirty-eight
-"What is the largest number in the list: 81, sixty-three, 44?":
-  - 81
-  - eighty-one
-"What is the third digit of the number 9354816?":
-  - 5
-  - five
+"What is Jennifer's first name?":
+  - jennifer
+"What color are the blue pants?":
+  - blue
 "How many colors are there in the list: tooth, bread, white, hotel?":
   - 1
   - one
-"62, twenty-two, 32 and 34: what is the first number in the list?":
-  - 62
-  - sixty-two
-"Between the numbers 24, fourteen and 17 which is the largest?":
-  - 24
-  - twenty-four
 "How many colors are in the list: black, horse, shoe, red, purple?":
   - 3
   - three
 "Jam, arm, finger, elephant: how many body parts are there?":
   - 2
   - two
-"What is the second digit of the number 76587998?":
-  - 6
-  - six
-"What is the fourth digit of the number 98987645656?":
-  - 8
-  - eight
 "What is the second letter in the word rabbit?":
   - a
 "What is the second letter of the word horse?":
   - o
-"How many letters are there in cat?":
+"How many letters are in cat?":
   - 3
-  - trois
-"How many days are there in a week?":
+  - three
+"How many days are in a week?":
   - 7
   - seven
 "How many months are there in a year?":
@@ -88,38 +54,72 @@
 "How many letters do we count in the alphabet?":
   - 26
   - twenty-six
-"How many vowels are there in the alphabet?":
+"How many vowels are in the alphabet?":
   - 6
   - six
-"Which animal is bigger: a bear, a mouse, a cat?":
-  - a bear
+"Which animal is bigger: the bear, the mouse, the cat?":
   - bear
   - the bear
-"In the following letters which one is not a vowel: U O E I A Z?":
+"In the following letters which one is not a vowel: U O E I A Z ?":
   - z
-"Which one of the following letters is not a vowel: O I E A K?":
+"Which of the following letters is not a vowel: O I E A K ?":
   - k
 "In the following letters which one is not a vowel: O I E C U ?":
   - c
 "In the following letters which one is not a consonant: C K J L M O ?":
   - O
-"Which one of the following animals does not fly: eagle, pigeon, snail?":
+"Which of the following animals does not fly: eagle, pigeon, snail?":
   - snail
-"Which one of the following names is not feminine: Lisa, Pauline, Adrien?":
+"Which of the following names is not feminine: Lisa, Pauline, Adrien?":
   - Adrien
-"2+2":
-  - 4
-  - four
-"6+6":
-  - 12
-  - twelve
-"In the following list which one is not a living thing: plant, rabbit, rock?":
+"Which of the following is not a living thing: plant, rabbit, rock?":
   - rock
-"Which one in the following list is not an even number: 1, 2, 4, 6, 8?":
-  - 1
-  - one
-"Which one in the following list is not an odd number: 5, 9, 3, 7, 2?":
-  - 2
-  - two
-"In the following list which one is not a sport: swimming, riding, dishes?":
+"In the following list which one is not a sport: swimming, horse riding, dishes?":
   - dishes
+"How many fingers does a hand contain?":
+  - five
+  - 5
+"We breathe through: the nose, the ear, the hair?":
+  - nose
+  - the nose
+"Which of these animals can not live in water: shark, fish, cat?":
+  - cat
+  - the cat
+"Which of these animals lives in water: elephant, whale, panda?":
+  - whale
+  - the whale
+"Which of these animals can fly: dog, parrot, cheetah":
+  - the parrot
+  - parrot
+"Which of these animals has no wings: chicken, lion, eagle":
+  - the lion
+  - lion
+"Which of these cities is not in the north of France: Marseille, Havre, Brest":
+  - marseille
+"Which of these cities is not in the south of France: Nice, Montpellier, Lille":
+  - lille
+"Which of these cities is in the north of France: La Rochelle, Lyon, Calais":
+  - calais
+"Which of these cities is in the south of France: Rennes, Rouen, Montpellier":
+  - Montpellier
+"In the following list which one is not a language: English, Calais, French":
+  - Calais
+"How many hours are there in a day?":
+  - 24
+  - 24h
+  - 24 hours
+"In the following list which one is a verb: to walk, cow, rider":
+  - to walk
+"In the following list which one is a continent: Europe, Russia, Malaysia":
+  - europe
+"In the following list which one is a sense of the human body: smell, foot, back":
+  - smell
+"In which city is the Eiffel Tower located?":
+  - paris
+"In the following list which one is not a continent: Africa, Asia, Italy":
+  - italy
+"In the following list which one is not a means of transportation: subway, cloud, train":
+  - cloud
+"Which of the following animals produces milk: cicada, cow, crow":
+  - cow
+  - the cow
