@@ -1,13 +1,10 @@
+---
 "Welche Farbe hat das graue Pferd?":
   - grau
 "Bist du eine Maschine?":
   - nein
 "Was ist die Hauptstadt Frankreichs?":
   - Paris
-"1+1":
-  - 2
-  - zwei
-  - 02
 "Welche Farbe hat die schwarze Katze?":
   - schwarz
 "Wie lautet die Nummer des Departements Loire-Atlantique?":
@@ -15,24 +12,8 @@
   - vierundvierzig
 "Welche ist die erste Farbe auf der Liste: Sprache, Grau, Orange?":
   - grau
-"Was ist die größte der folgenden Zahlen: 18, fünf, vierzig, hundert?":
-  - 100
-  - hundert
-"Was ist 15 minus eins?":
-  - 14
-  - vierzehn
-"Welche Farbe hat das weiße Pferd von Heinrich IV?":
-  - weiß
-"Welches von fünfzig, sechsundsiebzig, dreiundzwanzig, eins, 28 oder 77 ist das größte?":
-  - 77
-  - siebenundsiebzig
-"55+1":
-  - 56
-  - sechsundfünfzig
-"14, fünfunddreißig oder fünfundvierzig, je nachdem, welcher Wert kleiner ist":
-  - 14
-  - vierzehn
-"Wenn das Haar schwarz ist, welche Farbe hat es dann?":
+"Wenn das Haar schwarz ist, welche Farbe hat das Haar?":
+  - schwarz
   - schwarz
 "Rosa, Grün und Ellbogen: Wie viele Farben stehen auf der Liste?":
   - 2
@@ -42,53 +23,33 @@
   - zwei
 "Welcher ist der dritte Buchstabe im Wort Milch?":
   - l
-"Was ist drei plus eins?":
-  - 4
-  - vier
 "Was ist die zweite Zahl in der Liste: 24, 38, 23, 6, 37?":
   - 38
   - achtunddreißig
-"Was ist die größte Zahl auf der Liste: 81, dreiundsechzig, 44?":
-  - 81
-  - einundachtzig
 "Wie lautet Jennifers Vorname?":
   - jennifer
-"Was ist die dritte Ziffer der Zahl 9354816?":
-  - 5
-  - fünf
+  - Jennifers
 "Welche Farbe hat die blaue Hose?":
   - blau
 "Wie viele Farben gibt es auf der Liste: Zahn, Brot, Weiß, Brot, Hotel?":
   - 1
   - eine
-"62, zweiundzwanzig, 32 und 34: Was ist die erste Zahl in der Liste?":
-  - 62
-  - zweiundsechzig
-"Welche der Zahlen 24, vierzehn und 17 ist die größte?":
-  - 24
-  - vierundzwanzig
-"Wie viele Farben stehen auf der Liste: Schwarz, Pferd, Schuh, Rot, Lila?":
+  - eine
+"Wie viele Farben stehen auf der Liste: Schwarz, Pferd, Schuh, Rot, Violett?":
   - 3
   - drei
 "Marmelade, Arm, Finger, Elefant: Wie viele Körperteile gibt es?":
   - 2
   - zwei
-"Wie lautet die zweite Ziffer der Zahl 76587998?":
-  - 6
-  - sechs
-"Was ist die vierte Ziffer in der Zahl 98987645656?":
-  - 8
-  - acht
-"Wie lautet der zweite Buchstabe in dem Wort Hase?":
+"Was ist der zweite Buchstabe des Wortes Kaninchen?":
   - a
 "Wie lautet der zweite Buchstabe des Wortes Pferd?":
   - f
 "Wie viele Buchstaben hat Katze?":
-  - 4
-  - vier
+  - 5
+  - fünf
 "Wie viele Tage hat eine Woche?":
   - 7
-  - sieben
 "Wie viele Monate hat ein Jahr?":
   - zwölf
   - 12
@@ -99,8 +60,8 @@
   - 6
   - sechs
 "Welches Tier ist größer: der Bär, die Maus oder die Katze?":
-  - der Bär
-
+  - Der Bär
+  - Bär
 "Welcher der folgenden Buchstaben ist kein Vokal: U O E I A Z?":
   - z
 "Welcher der folgenden Vokale ist kein Vokal: O I E A K?":
@@ -110,22 +71,68 @@
 "Welches der folgenden Wörter ist kein Konsonant: C K J L M O ?":
   - O
 "Welches der folgenden Tiere kann nicht fliegen: Adler, Taube, Schnecke?":
+  - schnecke
   - Schnecke
 "Welcher der folgenden Namen ist nicht weiblich: Lisa, Pauline, Adrien?":
   - Adrien
-"2+2":
-  - 4
-  - vier
-"6+6":
-  - 12
-  - zwölf
 "Welches der folgenden Lebewesen ist kein Lebewesen: Pflanze, Kaninchen, Stein?":
   - Stein
-"Welche Zahl in der folgenden Liste ist nicht gerade: 1, 2, 4, 6, 8?":
-  - 1
-  - eine
-"Welche Zahl in der folgenden Liste ist nicht ungerade: 5, 9, 3, 7, 2?":
-  - 2
-  - zwei
-"Welche der folgenden Tätigkeiten ist keine Sportart: Schwimmen, Reiten, Abwaschen?":
+"Welche der folgenden Sportarten ist keine: Schwimmen, Reiten, Abwaschen?":
   - Abwaschen
+"Wie viele Finger hat eine Hand?":
+  - fünf
+  - 5
+"Atmen Sie durch die Nase, das Ohr oder die Haare?":
+  - die Nase
+  - Nase
+"Welches dieser Tiere kann nicht im Wasser leben: Hai, Fisch, Katze?":
+  - Katze
+  - Katze
+"Welches dieser Tiere lebt im Wasser: Elefant, Wal, Panda?":
+  - Walfisch
+  - der Wal
+  - Wal
+"Welches dieser Tiere kann fliegen: Hund, Papagei, Gepard?":
+  - der Papagei
+  - Papagei
+"Welches dieser Tiere hat keine Flügel: Huhn, Löwe, Adler?":
+  - der Löwe
+  - Löwe
+"Welche dieser Städte liegt nicht im Norden Frankreichs: Marseille, Havre, Brest":
+  - marseille
+  - Marseille
+"Welche dieser Städte liegt nicht im Süden Frankreichs: Nizza, Montpellier, Lille?":
+  - Lille
+  - lille
+"Welche dieser Städte liegt im Norden Frankreichs: La Rochelle, Lyon, Calais?":
+  - Calais
+  - calais
+"Welche dieser Städte liegt in Südfrankreich: Rennes, Rouen, Montpellier":
+  - Montpellier
+  - montpellier
+"Welche der folgenden Sprachen ist keine Sprache: Englisch, Calais, Französisch":
+  - Calais
+  - calais
+"Wie viele Stunden hat ein Tag?":
+  - 24
+  - 24h
+  - 24 Stunden
+"Welches ist in der folgenden Liste ein Verb: gehen, Kuh, Reiter":
+  - gehen
+"Welcher Kontinent in der folgenden Liste ist ein Kontinent: Europa, Russland, Malaysia":
+  - Europa
+  - europa
+"In der folgenden Liste, die ein Sinn des menschlichen Körpers ist: Geruch, Fuß, Rücken":
+  - Geruch
+  - riechen
+"In welcher Stadt befindet sich der Eiffelturm?":
+  - paris
+  - Paris
+"Welcher der folgenden Kontinente ist kein Kontinent? Afrika, Asien, Italien":
+  - italien
+  - Italien
+"Welches der folgenden Verkehrsmittel ist kein Verkehrsmittel: Metro, Cloud, Zug":
+  - Cloud
+"Welches der folgenden Tiere gibt Milch: Zikade, Kuh, Krähe":
+  - Kuh
+  - die Kuh

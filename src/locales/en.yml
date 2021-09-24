@@ -1,42 +1,125 @@
 ---
-"What color is the gray horse?":
+"What is the color of the gray horse?":
   - gray
-"Are you a machine":
+"are you a machine?":
   - "no"
 "What is the capital of France?":
   - paris
-"1+1":
-  - 2
-  - two
 "What color is the black cat?":
   - black
-"What is the number of the department of Loire-Atlantique?":
+"What is the department number of Loire-Atlantique?":
   - 44
   - forty-four
-"What is the second color in the list: language, gray, orange?":
+"What is the first color in the list: language, gray, orange?":
   - gray
-"What is the greatest number among the following numbers: 18, five, forty, one hundred?":
-  - 100
-  - one hundred
-"How much is 15 minus one?":
-  - 14
-  - fourteen
-"What is the color of the white horse of Henry IV?":
-  - white
-"Among fifty, seventy-six, twenty-three, one, 28 or 77, which is the greatest?":
-  - 77
-  - seventy-seven
-"55+1":
-  - 56
-  - fifty-six
-"Fourteen, thirty-five or forty-five: the smallest is...":
-  - 45
-  - forty-five
 "If the hair is black, what color is the hair?":
   - black
 "Pink, green and elbow: how many colors in the list?":
   - 2
   - two
-"The blue, finger, pink, cheese, eye and bread list contains how many colors?":
+"The list: blue, finger, pink, cheese, eye and bread contains how many colors?":
   - 2
   - two
+"What is the third letter in the word milk?":
+  - l
+"What is the second number in the list: 24, 38, 23, 6, 37?":
+  - 38
+  - thirty-eight
+"What is Jennifer's first name?":
+  - jennifer
+"What color are the blue pants?":
+  - blue
+"How many colors are there in the list: tooth, bread, white, hotel?":
+  - 1
+  - one
+"How many colors are in the list: black, horse, shoe, red, purple?":
+  - 3
+  - three
+"Jam, arm, finger, elephant: how many body parts are there?":
+  - 2
+  - two
+"What is the second letter in the word rabbit?":
+  - a
+"What is the second letter of the word horse?":
+  - o
+"How many letters are in cat?":
+  - 3
+  - three
+"How many days are in a week?":
+  - 7
+  - seven
+"How many months are there in a year?":
+  - 12
+  - twelve
+"How many letters do we count in the alphabet?":
+  - 26
+  - twenty-six
+"How many vowels are in the alphabet?":
+  - 6
+  - six
+"Which animal is bigger: the bear, the mouse, the cat?":
+  - bear
+  - the bear
+"In the following letters which one is not a vowel: U O E I A Z ?":
+  - z
+"Which of the following letters is not a vowel: O I E A K ?":
+  - k
+"In the following letters which one is not a vowel: O I E C U ?":
+  - c
+"In the following letters which one is not a consonant: C K J L M O ?":
+  - O
+"Which of the following animals does not fly: eagle, pigeon, snail?":
+  - snail
+"Which of the following names is not feminine: Lisa, Pauline, Adrien?":
+  - Adrien
+"Which of the following is not a living thing: plant, rabbit, rock?":
+  - rock
+"In the following list which one is not a sport: swimming, horse riding, dishes?":
+  - dishes
+"How many fingers does a hand contain?":
+  - five
+  - 5
+"We breathe through: the nose, the ear, the hair?":
+  - nose
+  - the nose
+"Which of these animals can not live in water: shark, fish, cat?":
+  - cat
+  - the cat
+"Which of these animals lives in water: elephant, whale, panda?":
+  - whale
+  - the whale
+"Which of these animals can fly: dog, parrot, cheetah":
+  - the parrot
+  - parrot
+"Which of these animals has no wings: chicken, lion, eagle":
+  - the lion
+  - lion
+"Which of these cities is not in the north of France: Marseille, Havre, Brest":
+  - marseille
+"Which of these cities is not in the south of France: Nice, Montpellier, Lille":
+  - lille
+"Which of these cities is in the north of France: La Rochelle, Lyon, Calais":
+  - calais
+"Which of these cities is in the south of France: Rennes, Rouen, Montpellier":
+  - Montpellier
+"In the following list which one is not a language: English, Calais, French":
+  - Calais
+"How many hours are there in a day?":
+  - 24
+  - 24h
+  - 24 hours
+"In the following list which one is a verb: to walk, cow, rider":
+  - to walk
+"In the following list which one is a continent: Europe, Russia, Malaysia":
+  - europe
+"In the following list which one is a sense of the human body: smell, foot, back":
+  - smell
+"In which city is the Eiffel Tower located?":
+  - paris
+"In the following list which one is not a continent: Africa, Asia, Italy":
+  - italy
+"In the following list which one is not a means of transportation: subway, cloud, train":
+  - cloud
+"Which of the following animals produces milk: cicada, cow, crow":
+  - cow
+  - the cow
