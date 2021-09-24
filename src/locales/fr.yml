@@ -1,19 +1,17 @@
 ---
 "De quelle couleur est le cheval gris?":
   - gris
-"êtes vous une machine":
+"Êtes-vous une machine?":
   - non
-"Quelle est la capitale de la France ?":
+"Quelle-est la capitale de la France ?":
   - paris
 "1+1":
   - 2
   - deux
+  - 02
 "De quelle couleur est le chat noir ?":
   - noir
-"Quel est le numéro de département de la Loire-Atlantique ?":
-  - 44
-  - quarante-quatre
-"Quelle est la seconde couleur de la liste : langue, gris, orange ?":
+"Quelle est la première couleur de la liste : langue, gris, orange ?":
   - gris
 "Quel est le nombre le plus grand entre les nombres suivants : 18, cinq, quarante, cent ?":
   - 100
@@ -23,7 +21,7 @@
   - quatorze
 "Quelle la couleur du cheval blanc d'Henri IV ?":
   - blanc
-"Parmi cinquante, soixante-seize, vingt-trois, un, 28 ou 77, lequel est le plus grand ?":
+"Parmi: cinquante, soixante-seize, vingt-trois, un, 28 ou 77, lequel est le plus grand ?":
   - 77
   - soixante-dix-sept
 "55+1":
@@ -38,7 +36,7 @@
 "Rose, vert et coude : combien de couleurs dans la liste ?":
   - 2
   - deux
-"La liste bleu, doigt, rose, fromage, œil et pain contient combien de couleurs ?":
+"La liste: bleu, doigt, rose, fromage, œil et pain contient combien de couleurs ?":
   - 2
   - deux
 "Quelle est la troisième lettre du mot lait ?":
@@ -52,13 +50,9 @@
 "Quel est le plus grand nombre de la liste : 81, soixante-trois, 44 ?":
   - 81
   - quatre-vingt-un
-"Quel est le prénom de Jennifer ?":
-  - Jennifer
 "Quel est le troisième chiffre du nombre 9354816 ?":
   - 5
   - cinq
-"Quelle est la couleur du pantalon bleu ?":
-  - bleu
 "Combien y a-t-il de couleurs dans la liste : dent, pain, blanc, pain, hotel ?":
   - 1
   - un
@@ -75,3 +69,58 @@
 "Confiture, bras, doigt, éléphant : combien y a-t-il de parties du corps ?":
   - 2
   - deux
+"Quel est le deuxième chiffre du nombre 76587998 ?":
+  - 6
+  - six
+"Quel est le quatrième chiffre du nombre 98987645656 ?":
+  - 8
+  - huit
+"Quelle est la deuxième lettre du mot lapin ?":
+  - a
+"Quelle est la deuxième lettre du mot cheval ?":
+  - h
+"Combien y a-t-il de lettre dans chat ?":
+  - 4
+  - quatre
+"Combien de jours compte-t-on dans une semaine ?":
+  - 7
+"Combien de mois compte-t-on dans l'année ?":
+  - douze
+  - 12
+"Combien de lettre compte-t-on dans l'alphabet ?":
+  - 26
+  - vingt-six
+"Combien de voyelle compte-t-on dans l'alphabet ?":
+  - 6
+  - six
+"Quel animal est le plus gros : l'ours, la souris, le chat ?":
+  - l'ours
+  - ours
+"Dans les lettres suivantes laquelle n'est pas une voyelle : U O E I A Z ?":
+  - z
+"Dans les lettres suivantes laquelle n'est pas une voyelle : O I E A K ?":
+  - k
+"Dans les lettres suivantes laquelle n'est pas une voyelle : O I E C U ?":
+  - c
+"Dans les lettres suivantes laquelle n'est pas une consonne : C K J L M O ?":
+  - O
+"Lequel des animaux suivants ne vole pas : aigle, pigeon, escargot?":
+  -  escargot
+"Lequel de ces prénoms n'est pas féminin : Lisa, Pauline, Adrien?":
+  - Adrien
+"2+2":
+  - 4
+  - quatre
+"6+6":
+  - 12
+  - douze
+"Dans la liste suivante lequel n'est pas un être vivant : plante, lapin, roche?":
+  - roche
+"Quel chiffre dans la liste qui suit n'est pas pair : 1, 2, 4, 6, 8 ?":
+  - 1
+  - un
+"Quel chiffre dans la liste suivante n'est pas impair : 5, 9, 3, 7, 2 ?":
+  - 2
+  - deux
+"Dans la liste suivante lequel n'est pas un sport : natation, équitation, vaisselle?":
+  - vaisselle
