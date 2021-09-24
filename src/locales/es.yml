@@ -2,7 +2,7 @@
 "¿Cuál es el color del caballo gris?":
   - gris
 "¿Eres una máquina?":
-  - no
+  - "no"
 "¿Cuál es la capital de Francia?":
   - parís
 "1+1":
@@ -71,7 +71,7 @@
 "¿Cuál es la cuarta cifra del número 98987645656?":
   - 8
   - ocho
-"¿Cuál es la segunda letra de la palabra "conejo"?
+"¿Cuál es la segunda letra de la palabra \"conejo\"?":
   - a
 "¿Cuál es la segunda letra de la palabra caballo?":
   - o
