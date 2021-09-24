@@ -1,77 +1,129 @@
 ---
 "De quelle couleur est le cheval gris?":
   - gris
-"êtes vous une machine":
+"Êtes-vous une machine?":
   - non
-"Quelle est la capitale de la France ?":
+"Quelle-est la capitale de la France ?":
   - paris
-"1+1":
-  - 2
-  - deux
 "De quelle couleur est le chat noir ?":
   - noir
 "Quel est le numéro de département de la Loire-Atlantique ?":
   - 44
   - quarante-quatre
-"Quelle est la seconde couleur de la liste : langue, gris, orange ?":
+"Quelle est la première couleur de la liste : langue, gris, orange ?":
   - gris
-"Quel est le nombre le plus grand entre les nombres suivants : 18, cinq, quarante, cent ?":
-  - 100
-  - cent
-"Combien font 15 moins un ?":
-  - 14
-  - quatorze
-"Quelle la couleur du cheval blanc d'Henri IV ?":
-  - blanc
-"Parmi cinquante, soixante-seize, vingt-trois, un, 28 ou 77, lequel est le plus grand ?":
-  - 77
-  - soixante-dix-sept
-"55+1":
-  - 56
-  - cinquante-six
-"14, trente-cinq ou quarante-cinq : le plus petit est ?":
-  - 45
-  - quarante-cinq
 "Si les cheveux sont noirs, de quelle couleur sont les cheveux ?":
   - noirs
   - noir
 "Rose, vert et coude : combien de couleurs dans la liste ?":
   - 2
   - deux
-"La liste bleu, doigt, rose, fromage, œil et pain contient combien de couleurs ?":
+"La liste: bleu, doigt, rose, fromage, œil et pain contient combien de couleurs ?":
   - 2
   - deux
 "Quelle est la troisième lettre du mot lait ?":
   - i
-"Combien font trois plus un ?":
-  - 4
-  - quatre
 "Quel est le deuxième nombre de la liste : 24, 38, 23, 6, 37 ?":
   - 38
   - trente-huit
-"Quel est le plus grand nombre de la liste : 81, soixante-trois, 44 ?":
-  - 81
-  - quatre-vingt-un
 "Quel est le prénom de Jennifer ?":
-  - Jennifer
-"Quel est le troisième chiffre du nombre 9354816 ?":
-  - 5
-  - cinq
+  - jennifer
 "Quelle est la couleur du pantalon bleu ?":
   - bleu
 "Combien y a-t-il de couleurs dans la liste : dent, pain, blanc, pain, hotel ?":
   - 1
   - un
   - une
-"62, vingt-deux, 32 et 34 : quel est le premier nombre de la liste ?":
-  - 62
-  - soixante-deux
-"Parmi les nombres 24, quatorze et 17 quel est le plus grand ?":
-  - 24
-  - vingt-quatre
 "Combien de couleurs contient la liste : noir, cheval, chaussure, rouge, violet ?":
   - 3
   - trois
 "Confiture, bras, doigt, éléphant : combien y a-t-il de parties du corps ?":
   - 2
   - deux
+"Quelle est la deuxième lettre du mot lapin ?":
+  - a
+"Quelle est la deuxième lettre du mot cheval ?":
+  - h
+"Combien y a-t-il de lettre dans chat ?":
+  - 4
+  - quatre
+"Combien de jours compte-t-on dans une semaine ?":
+  - 7
+"Combien de mois compte-t-on dans l'année ?":
+  - douze
+  - 12
+"Combien de lettre compte-t-on dans l'alphabet ?":
+  - 26
+  - vingt-six
+"Combien de voyelle compte-t-on dans l'alphabet ?":
+  - 6
+  - six
+"Quel animal est le plus gros : l'ours, la souris, le chat ?":
+  - l'ours
+  - ours
+"Dans les lettres suivantes laquelle n'est pas une voyelle : U O E I A Z ?":
+  - z
+"Dans les lettres suivantes laquelle n'est pas une voyelle : O I E A K ?":
+  - k
+"Dans les lettres suivantes laquelle n'est pas une voyelle : O I E C U ?":
+  - c
+"Dans les lettres suivantes laquelle n'est pas une consonne : C K J L M O ?":
+  - O
+"Lequel des animaux suivants ne vole pas : aigle, pigeon, escargot?":
+  - escargot
+"Lequel de ces prénoms n'est pas féminin : Lisa, Pauline, Adrien?":
+  - Adrien
+"Dans la liste suivante lequel n'est pas un être vivant : plante, lapin, roche?":
+  - roche
+"Dans la liste suivante lequel n'est pas un sport : natation, équitation, vaisselle?":
+  - vaisselle
+"Combien de doigts contient une main ?":
+  - cinq
+  - 5
+"On respire par : le nez, l'oreil, les cheveux ?":
+  - le nez
+  - nez
+"Lequel de ces animaux ne peut pas vivre dans l'eau : requin, poisson, chat ?":
+  - le chat
+  - chat
+"Lequel de ces animaux vit dans l'eau : elephant, baleine, panda ? ":
+  - baleine
+  - la baleine
+"Lequel de ces animaux peut voler : chien, perroquet, guépard":
+  - le perroquet
+  - perroquet
+"Lequel de ces animaux n'a pas d'ailes : poule, lion, aigle ?":
+  - le lion
+  - lion
+"Laquelle de ces villes n'est pas au nord de la France : Marseille, Havre, Brest":
+  - marseille
+"Laquelle de ces villes n'est pas au sud de la France : Nice, Montpellier, Lille":
+  - lille
+"Laquelle de ces villes est au nord de la France : La Rochelle, Lyon, Calais":
+  - calais
+"Laquelle de ces villes est au sud de la France : Rennes, Rouen, Montpellier":
+  - Montpellier
+"Dans la liste suivante laquelle n'est pas une langue : Anglais, Calais, Français":
+  - calais
+"Combien y-a-t-il d'heures dans un jour ?":
+  - 24
+  - 24h
+  - 24 heures
+"Dans la liste suivante lequel est un verbe : marcher, vache, cavalier":
+  - marcher
+"Dans la liste suivante lequel est un continent : Europe, Russie, Malaisie":
+  - europe
+  - l'europe
+"Dans la liste suivante lequel est un sens du corps humain : odorat, pied, dos":
+  - odorat
+  - l'odorat
+"Dans quelle ville se trouve la Tour Eiffel ?":
+  - paris
+"Dans la liste suivante lequel n'est pas un continent: Afrique, Asie, Italie":
+  - italie
+  - l'italie
+"Dans la liste suivante lequel n'est pas un moyen de transport: métro, nuage, train":
+  - nuage
+"Parmis les animaux suivants lequel produit du lait : cigale, vache, corbeau":
+  - vache
+  - la vache

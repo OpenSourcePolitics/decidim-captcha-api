@@ -1,8 +1,8 @@
 ---
-"What color is the gray horse?":
+"What is the color of the gray horse?":
   - gray
 "are you a machine?":
-  - no
+  - "no"
 "What is the capital of France?":
   - paris
 "What color is the black cat?":
