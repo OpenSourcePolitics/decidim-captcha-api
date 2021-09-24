@@ -4,30 +4,12 @@
 "¿Eres una máquina?":
   - "no"
 "¿Cuál es la capital de Francia?":
+  - paris
   - parís
-"1+1":
-  - 2
-  - dos
-  - 02
 "¿De qué color es el gato negro?":
   - negro
-"¿Cuál es el primer color de esta lista: lengua, gris, naranja?":
+"¿Cuál es el primer color de la lista: lengua, gris, naranja?":
   - gris
-"¿Cuál es el mayor número entre los siguientes números: dieciocho, cinco, cuarenta, cien?":
-  - 100
-  - cien
-"¿Cuánto es 15 menos uno?":
-  - 14
-  - catorce
-"¿Cuál de: cincuenta, setenta y seis, veintitrés, uno, 28 o 77 es el mayor?":
-  - 77
-  - setenta y siete
-"55+1":
-  - 56
-  - cincuenta y seis
-"14, treinta y cinco o cuarenta y cinco: el más pequeño es...":
-  - 45
-  - cuarenta y cinco
 "Si el pelo es negro, ¿de qué color es el pelo?":
   - negro
 "Rosa, verde y codo: ¿cuántos colores hay en la lista?":
@@ -36,89 +18,111 @@
 "La lista: azul, dedo, rosa, queso, ojo y pan contiene cuántos colores?":
   - 2
   - dos
+"La lista: azul, dedo, rosa, queso, ojo y pan contiene ¿cuántos colores?":
+  - 2
+  - dos
 "¿Cuál es la tercera letra de la palabra leche?":
   - c
-"¿Cuánto es tres más uno?":
-  - 4
-  - cuatro
 "¿Cuál es el segundo número de la lista: 24, 38, 23, 6, 37?":
   - 38
   - treinta y ocho
-"¿Cuál es el mayor número de la lista: 81, sesenta y tres, 44?":
-  - 81
-  - ochenta y uno
-"¿Cuál es el tercer dígito del número 9354816?":
-  - 5
-  - cinco
-"¿Cuántos colores hay en la lista: diente, pan, blanco, hotel?":
+"¿Cuál es el nombre de Jennifer?":
+  - jennifer
+"¿De qué color son los pantalones azules?":
+  - azul
+"¿Cuántos colores hay en la lista: diente, pan, blanco, pan, hotel?":
   - 1
   - uno
-"62, veintidós, 32 y 34: ¿cuál es el primer número de la lista?":
-  - 62
-  - sesenta y dos
-"Entre los números 24, catorce y 17 ¿cuál es el mayor?":
-  - 24
-  - veinticuatro
 "¿Cuántos colores hay en la lista: negro, caballo, zapato, rojo, morado?":
   - 3
   - tres
 "Mermelada, brazo, dedo, elefante: ¿cuántas partes del cuerpo hay?":
   - 2
   - dos
-"¿Cuál es la segunda cifra del número 76587998?":
-  - 6
-  - seis
-"¿Cuál es la cuarta cifra del número 98987645656?":
-  - 8
-  - ocho
-"¿Cuál es la segunda letra de la palabra \"conejo\"?":
-  - a
-"¿Cuál es la segunda letra de la palabra caballo?":
+"¿Cuál es la segunda letra de la palabra conejo?":
   - o
+"¿Cuál es la segunda letra de la palabra caballo?":
+  - a
 "¿Cuántas letras hay en gato?":
-  - 3
-  - trois
+  - 4
+  - cuatro
 "¿Cuántos días hay en una semana?":
   - 7
   - siete
 "¿Cuántos meses hay en un año?":
-  - 12
   - doce
+  - 12
 "¿Cuántas letras hay en el alfabeto?":
   - 26
   - veintiséis
 "¿Cuántas vocales hay en el alfabeto?":
   - 6
   - seis
-"¿Qué animal es más grande: un oso, un ratón, un gato?":
-  - un oso
-  - el oso
+"¿Qué animal es más grande: el oso, el ratón o el gato?":
   - oso
-"En las siguientes letras ¿cuál no es una vocal: U O E I A Z?":
+"¿Cuál de las siguientes letras no es una vocal: U O E I A Z?":
   - z
-"En las siguientes letras ¿cuál no es una vocal: O I E A K?":
+"¿Cuál de las siguientes no es una vocal: O I E A K?":
   - k
-"En las siguientes letras cuál no es una vocal: O I E C U ?":
+"¿Cuál de las siguientes no es una vocal: O I E C U ?":
   - c
-"En las siguientes letras cuál no es una consonante: C K J L M O ?":
+"¿Cuál de las siguientes no es una consonante: C K J L M O ?":
   - o
 "¿Cuál de los siguientes animales no vuela: águila, paloma, caracol?":
   - caracol
-"¿Cuál de los siguientes nombres no es femenino: Lisa, Pauline, Adrien?":
-  - adrien
-"2+2":
-  - 4
-  - cuatro
-"6+6":
-  - 12
-  - doce
-"En la siguiente lista, ¿cuál no es un ser vivo: planta, conejo, roca?":
+"¿Cuál de los siguientes nombres no es femenino: Laura, Enrique, Carolina?":
+  - Enrique
+"¿Cuál de los siguientes no es un ser vivo: planta, conejo, roca?":
   - roca
-"En la siguiente lista ¿cuál no es un número par: 1, 2, 4, 6, 8?":
-  - 1
-  - uno
-"¿Cuál de la siguiente lista no es un número impar: 5, 9, 3, 7, 2?":
-  - 2
-  - dos
-"En la siguiente lista, ¿cuál no es un deporte: natación, equitación, platos?":
-  - Los platos
+"¿Cuál de los siguientes no es un deporte: nadar, montar a caballo, dormir?":
+  - dormir
+"¿Cuántos dedos tiene una mano?":
+  - cinco
+  - 5
+"¿Uno respira por: la nariz, el oído, el pelo?":
+  - la nariz
+  - nariz
+"¿Cuál de estos animales no puede vivir en el agua: tiburón, pez, gato?":
+  - gato
+  - el gato
+"¿Cuál de estos animales vive en el agua: elefante, ballena, panda?":
+  - ballena
+  - la ballena
+"¿Cuál de estos animales puede volar: perro, loro, guepardo?":
+  - el loro
+  - loro
+"¿Cuál de estos animales no tiene alas: gallina, león, águila?":
+  - el león
+  - león
+"¿Cuál de estas ciudades no está en el norte de Francia: Marsella, Havre, Brest":
+  - marsella
+"¿Cuál de estas ciudades no está en el sur de Francia: Niza, Montpellier, Lille?":
+  - lille
+"¿Cuál de estas ciudades está en el norte de Francia: La Rochelle, Lyon, Calais":
+  - calais
+"¿Cuál de estas ciudades está en el sur de Francia: Rennes, Ruán, Montpellier":
+  - montpellier
+"¿Cuál de los siguientes no es un idioma: el inglés, bob esponja, el francés":
+  - bob esponja
+"¿Cuántas horas tiene el día?":
+  - 24
+  - 24h
+  - 24 horas
+"En la siguiente lista cuál es un verbo: caminar, vaca, jinete":
+  - caminar
+"En la siguiente lista cuál es un continente: Europa, Rusia, Malasia":
+  - europa
+"En la siguiente lista que es un sentido del cuerpo humano: olfato, pie, espalda":
+  - olfato
+  - el olfato
+"¿En qué ciudad se encuentra la Torre Eiffel?":
+  - parís
+  - paris
+"En la siguiente lista, ¿cuál no es un continente? África, Asia, Italia":
+  - italia
+"¿Cuál de los siguientes no es un medio de transporte: metro, nube, tren":
+  - nube
+  - la nube
+"¿Cuál de los siguientes animales produce leche: cigarra, vaca, cuervo":
+  - vaca
+  - la vaca
