@@ -1,5 +1,5 @@
 ---
-"¿De qué color es el caballo gris?":
+"¿Cuál es el color del caballo gris?":
   - gris
 "¿Eres una máquina?":
   - "no"
@@ -12,7 +12,10 @@
   - gris
 "Si el pelo es negro, ¿de qué color es el pelo?":
   - negro
-"Rosa, verde y codo: ¿cuántos colores en la lista?":
+"Rosa, verde y codo: ¿cuántos colores hay en la lista?":
+  - 2
+  - dos
+"La lista: azul, dedo, rosa, queso, ojo y pan contiene cuántos colores?":
   - 2
   - dos
 "La lista: azul, dedo, rosa, queso, ojo y pan contiene ¿cuántos colores?":
